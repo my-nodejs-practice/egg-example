@@ -1,0 +1,22 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "cov": "egg-bin cov",
+    "test": "egg-bin test"
+  },
+  "author": "lizhigao <lizhigao1231@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "egg": "^2.26.1",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.26.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1",
+    "egg-mock": "^4.0.0"
+  }
+}
